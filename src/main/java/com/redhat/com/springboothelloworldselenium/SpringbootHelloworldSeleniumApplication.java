@@ -1,4 +1,4 @@
-package com.redhat.com.springboothelloworldselenium
+package com.redhat.com.springboothelloworldselenium;
 
 import java.net.URL;
 import org.openqa.selenium.*;
