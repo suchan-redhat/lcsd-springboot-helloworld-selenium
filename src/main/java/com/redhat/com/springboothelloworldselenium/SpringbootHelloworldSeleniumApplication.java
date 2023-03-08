@@ -27,7 +27,7 @@ public class SpringbootHelloworldSeleniumApplication {
                         driver.get("http://springboot-demo-cicddemo-dev.apps.nonp-cluster.smartplay-np.lcsd.hksarg/greeting");
                         driver.quit();
                     } catch (Exception e) {
-                        System.out.printlng("ERROR@@@@@");
+                        System.out.println("ERROR@@@@@");
                     }
 
 		};
