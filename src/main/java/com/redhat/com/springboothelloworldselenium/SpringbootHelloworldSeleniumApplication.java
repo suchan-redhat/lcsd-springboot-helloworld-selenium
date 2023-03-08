@@ -1,3 +1,5 @@
+package com.redhat.com.springboothelloworldselenium
+
 import java.net.URL;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
