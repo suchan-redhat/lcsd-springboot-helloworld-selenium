@@ -25,7 +25,7 @@ public class SpringbootHelloworldSeleniumApplication {
                         ChromeOptions chromeOptions = new ChromeOptions();
                         chromeOptions.addArguments("--ignore-ssl-errors=yes");
                         chromeOptions.addArguments("--ignore-certificate-errors=yes");
-                        WebDriver driver = new RemoteWebDriver(new URL("http://selenium-standalone-chrome.cicd-tools.svc.cluster.local/wd/hub"), chromeOptions);
+                        WebDriver driver = new RemoteWebDriver(new URL("http://selenium-standalone-chrome-cicd-tools.apps.nonp-cluster.smartplay-np.lcsd.hksarg/wd/hub"), chromeOptions);
                         driver.get("http://springboot-demo-cicddemo-dev.apps.nonp-cluster.smartplay-np.lcsd.hksarg/greeting");
                         driver.quit();
                     } catch (Exception e) {
